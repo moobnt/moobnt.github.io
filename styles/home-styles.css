@@ -1,0 +1,79 @@
+/* FONTS ---------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
+
+html {
+    font-family: "Noto Serif", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/main-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 4.5em;
+    color: white;
+    text-align: center;
+    margin: 5em;
+}
+
+h2 {
+    font-family: "Questrial", serif;
+}
+
+.title {
+    align-items: center;
+}
+
+.menu-bar {
+    font-family: "Caveat", serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 1em;
+    margin: 0;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.info {
+    background-color: white;
+    text-align: justify;
+    padding: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
